@@ -1,0 +1,180 @@
+html{
+	scroll-behavior:smooth;
+}
+body {
+	margin: 0 auto;
+	background-color: rgb(58, 71, 80);
+	font-family:Verdana;
+	
+}
+main{
+	
+	
+	justify-content:center;
+}
+header{
+	
+}
+nav{
+	display:flex;
+}
+section{
+	align-items:center;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+button{
+	width:33%;
+	color:white;
+	background-color:rgb(40, 50, 60);
+	padding: 18px 0;
+}
+#teoria, #praktyka{
+		width: 50%;
+		margin:0 auto;
+		height: 80px;
+		background-color:rgb(40, 50, 60);
+		color: white;
+		
+		justify-content:center;
+		align-items:center;
+		display:flex;
+		
+		/*border: 5px solid rgb(246, 201, 14);
+*/}/*
+#teoria{
+	border-right-width: 3px;
+}
+#praktyka{
+	border-left-width: 3px;
+}
+*/
+#teoria:hover, #praktyka:hover{
+	color: rgb(246, 201, 14);
+	background-color:rgb(28, 36, 45) ;
+}
+#podr div{
+	justify-content:center;
+		align-items:center;
+		display:flex;
+}
+h1{
+	color:rgb(238, 238, 238);
+	margin:15px;
+	text-align:center;
+	
+}
+h2{
+	text-align:center;
+	width:100%;
+	color:rgb(238, 238, 238);
+}
+section a{
+	width:33%;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	align-items:center;
+	background-color:rgb(55, 65, 75);
+	padding:50px 0;
+	border: 3px solid rgb(20, 35, 45);
+	
+}
+a:hover{
+	border: 3px solid rgb(246, 201, 14);
+	color:rgb(246, 201, 14);
+	background-color:rgb(28, 36, 45)
+	
+}
+#img_1:hover{
+	background-image: url("img/0301.png");
+	
+}
+#img_2:hover{
+	background-image: url("img/0302.png");
+	
+}
+#img_3:hover{
+	background-image: url("img/0303.png");
+
+}
+#str a{
+	width:24,5%;
+	padding:30px 0;
+}
+.erase{
+	display:none;
+}
+.ark{
+	display:flex;
+}
+.ark div {
+	width:50%;
+	justify-content:center;
+	
+}
+.ark div div {
+	width:100%;
+	justify-content:center;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+div button{
+	width:70%;
+	
+}
+div a{
+	width:70%;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	align-items:center;
+	background-color:rgb(55, 65, 75);
+	padding:10px 0;
+	border: 3px solid rgb(20, 35, 45);
+}
+.yel{
+	border-color: yellow;
+}
+#mat button{
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	align-items:center;
+	background-color:rgb(55, 65, 75);
+	padding:50px 0;
+	border: 3px solid rgb(20, 35, 45);
+	font-size:1.5em;
+}
+#mat button:hover{
+	border: 3px solid rgb(246, 201, 14);
+	color:rgb(246, 201, 14);
+	background-color:rgb(28, 36, 45)
+}
+#mat button:focus{
+	background-color:rgb(40, 50, 50);
+}
+#mat div{
+	width:100%;
+}
+.erase{
+	visibility:hidden;
+}
+.pdf{
+	color: yellow;
+	text-decoration:none;
+	width:80%;
+	justify-content:center;
+	align-items:center;
+	display:flex;
+	margin:0 10%;
+}
+.container{
+	display:grid;
+	
+	grid-template-columns: 10% 20px 3em 1fr auto;
+	
+	grid-template-rows: auto auto auto;
+}
