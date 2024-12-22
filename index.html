@@ -14,15 +14,12 @@
 	#praktyka{
 		border: 5px solid rgb(246, 201, 14);
 		}
-	#teoria{
-		border: 5px solid rgb(40, 50, 60);
-		}
 	</style>
 </head>
 <body>
 	<header>
 		<nav>
-			<div id="teoria"><div>Teoria</div></div> <div id="praktyka"><div>Praktyka</div></div>
+			<div id="praktyka"><div>Praktyka</div></div>
 		</nav>
 	</header>
 <main>
@@ -242,35 +239,5 @@
 			</div>
 		</section>
 </main>
-	<script>
-	teoria.onclick = function(){
-		window.location.href="index.html";
-	};
-	
-	praktyka.onclick = function(){
-		window.location.href = "Praktyka.html";
-	};
-	let a=0; let b=0; let c=0;
-	
-	btn1.onclick = function(){
-		a=a+1;
-		btn1.classList.toggle("yel");
-		let linki = document.querySelectorAll("a");
-		
-	}
-	btn2.onclick = function(){
-		b=b+1;
-		btn2.classList.toggle("yel");
-	}
-	btn3.onclick = function(){
-		c=c+1;
-		btn3.classList.toggle("yel");
-	}
-	
-	
-	
-	
-	
-	</script>
 </body>
 </html>
